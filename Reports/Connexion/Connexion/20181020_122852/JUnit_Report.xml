@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Connexion" time="61" tests="2" failures="0" errors="0">
+   <testsuite name="Connexion" tests="2" failures="0" errors="0" time="61" timestamp="2018-10-20 12:29:10" hostname="FRAFA-PC - 192.168.1.68" id="Test Suites/Connexion/Connexion">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/FRAFA-PC/Katalon Studio/ORANGE-ACS/Reports/Connexion/Connexion/20181020_122852"/>
+         <property name="logFiles" value="/Users/FRAFA-PC/Katalon Studio/ORANGE-ACS/Reports/Connexion/Connexion/20181020_122852/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="FRAFA-PC - 192.168.1.68"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.68"/>
+         <property name="sessionId" value="66d0ae46917d34877d867c361188ad6b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Connexion/Chargement_Page_Connexion" classname="Test Cases/Connexion/Chargement_Page_Connexion" status="PASSED">
+         <system-out><![CDATA[2018-10-20 12:29:10 - [TEST_CASE][PASSED] - Test Cases/Connexion/Chargement_Page_Connexion: Test Cases/Connexion/Chargement_Page_Connexion
+
+2018-10-20 12:29:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-20 12:29:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-20 12:29:12 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-20 12:29:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-20 12:29:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://prod-acs.orange.ci/#!/login' successfully
+
+2018-10-20 12:29:29 - [MESSAGE][PASSED] - Navigate to 'http://prod-acs.orange.ci/#!/login' successfully
+
+2018-10-20 12:29:29 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-20 12:29:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-20 12:29:29 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Page_Connexion/div_Login' located by 'By.xpath: /html[@class="no-js"]/body[@class="smart-style-0 desktop-detected ng-scope block-ui block-ui-anim-fade"]/div[@class="ng-scope"]/div[@class="login-content ng-scope"]/div[@class="col-sm-5  pd-150"]/div[@class="col-sm-10"]' not found
+
+2018-10-20 12:29:35 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Connexion/div_Login' located by 'By.xpath: /html[@class="no-js"]/body[@class="smart-style-0 desktop-detected ng-scope block-ui block-ui-anim-fade"]/div[@class="ng-scope"]/div[@class="login-content ng-scope"]/div[@class="col-sm-5  pd-150"]/div[@class="col-sm-10"]' not found
+
+2018-10-20 12:29:35 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Page_Connexion/label_Orange ACS' located by 'By.xpath: /html[@class="no-js"]/body[@class="smart-style-0 desktop-detected ng-scope block-ui block-ui-anim-fade"]/div[@class="ng-scope"]/div[@class="login-content ng-scope"]/div[@class="col-sm-5  pd-150"]/div[@class="col-sm-10 no-padding"]/label[1][count(. | //label[(text() = 'Orange ACS' or . = 'Orange ACS')]) = count(//label[(text() = 'Orange ACS' or . = 'Orange ACS')])]' not found
+
+2018-10-20 12:29:40 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Connexion/label_Orange ACS' located by 'By.xpath: /html[@class="no-js"]/body[@class="smart-style-0 desktop-detected ng-scope block-ui block-ui-anim-fade"]/div[@class="ng-scope"]/div[@class="login-content ng-scope"]/div[@class="col-sm-5  pd-150"]/div[@class="col-sm-10 no-padding"]/label[1][count(. | //label[(text() = 'Orange ACS' or . = 'Orange ACS')]) = count(//label[(text() = 'Orange ACS' or . = 'Orange ACS')])]' not found
+
+2018-10-20 12:29:40 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Connexion/input_Login_name' is visible
+
+2018-10-20 12:29:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Connexion/input_Login_name' is visible
+
+2018-10-20 12:29:40 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Connexion/input_Mot de passe_password' is visible
+
+2018-10-20 12:29:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Connexion/input_Mot de passe_password' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Connexion/Connexion" classname="Test Cases/Connexion/Connexion" status="PASSED">
+         <system-out><![CDATA[2018-10-20 12:29:40 - [TEST_CASE][PASSED] - Test Cases/Connexion/Connexion: Test Cases/Connexion/Connexion
+
+2018-10-20 12:29:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Connexion/Chargement_Page_Connexion' successfully
+
+2018-10-20 12:29:40 - [TEST_CASE][PASSED] - Test Cases/Connexion/Chargement_Page_Connexion: Test Cases/Connexion/Chargement_Page_Connexion
+
+2018-10-20 12:29:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-20 12:29:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-20 12:29:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-20 12:29:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-20 12:29:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-20 12:29:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://prod-acs.orange.ci/#!/login' successfully
+
+2018-10-20 12:29:58 - [MESSAGE][PASSED] - Navigate to 'http://prod-acs.orange.ci/#!/login' successfully
+
+2018-10-20 12:29:58 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-20 12:29:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-20 12:29:58 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Page_Connexion/div_Login' located by 'By.xpath: /html[@class="no-js"]/body[@class="smart-style-0 desktop-detected ng-scope block-ui block-ui-anim-fade"]/div[@class="ng-scope"]/div[@class="login-content ng-scope"]/div[@class="col-sm-5  pd-150"]/div[@class="col-sm-10"]' not found
+
+2018-10-20 12:30:04 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Connexion/div_Login' located by 'By.xpath: /html[@class="no-js"]/body[@class="smart-style-0 desktop-detected ng-scope block-ui block-ui-anim-fade"]/div[@class="ng-scope"]/div[@class="login-content ng-scope"]/div[@class="col-sm-5  pd-150"]/div[@class="col-sm-10"]' not found
+
+2018-10-20 12:30:04 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Page_Connexion/label_Orange ACS' located by 'By.xpath: /html[@class="no-js"]/body[@class="smart-style-0 desktop-detected ng-scope block-ui block-ui-anim-fade"]/div[@class="ng-scope"]/div[@class="login-content ng-scope"]/div[@class="col-sm-5  pd-150"]/div[@class="col-sm-10 no-padding"]/label[1][count(. | //label[(text() = 'Orange ACS' or . = 'Orange ACS')]) = count(//label[(text() = 'Orange ACS' or . = 'Orange ACS')])]' not found
+
+2018-10-20 12:30:09 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Connexion/label_Orange ACS' located by 'By.xpath: /html[@class="no-js"]/body[@class="smart-style-0 desktop-detected ng-scope block-ui block-ui-anim-fade"]/div[@class="ng-scope"]/div[@class="login-content ng-scope"]/div[@class="col-sm-5  pd-150"]/div[@class="col-sm-10 no-padding"]/label[1][count(. | //label[(text() = 'Orange ACS' or . = 'Orange ACS')]) = count(//label[(text() = 'Orange ACS' or . = 'Orange ACS')])]' not found
+
+2018-10-20 12:30:09 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Connexion/input_Login_name' is visible
+
+2018-10-20 12:30:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Connexion/input_Login_name' is visible
+
+2018-10-20 12:30:09 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Connexion/input_Mot de passe_password' is visible
+
+2018-10-20 12:30:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Connexion/input_Mot de passe_password' is visible
+
+2018-10-20 12:30:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Connexion/Chargement_Page_Connexion' successfully
+
+2018-10-20 12:30:09 - [TEST_STEP][PASSED] - setText: Text 'c_fekouame' is set on object 'Object Repository/Page_Connexion/input_Login_name'
+
+2018-10-20 12:30:09 - [MESSAGE][PASSED] - Text 'c_fekouame' is set on object 'Object Repository/Page_Connexion/input_Login_name'
+
+2018-10-20 12:30:09 - [TEST_STEP][PASSED] - setText: Text 'Securite@1*' is set on object 'Object Repository/Page_Connexion/input_Mot de passe_password'
+
+2018-10-20 12:30:09 - [MESSAGE][PASSED] - Text 'Securite@1*' is set on object 'Object Repository/Page_Connexion/input_Mot de passe_password'
+
+2018-10-20 12:30:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Connexion/button_Se connecter' is clicked on
+
+2018-10-20 12:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connexion/button_Se connecter' is clicked on
+
+2018-10-20 12:30:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-20 12:30:11 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-20 12:29:10 - [TEST_SUITE][PASSED] - Connexion: Test Cases/Connexion/Connexion]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

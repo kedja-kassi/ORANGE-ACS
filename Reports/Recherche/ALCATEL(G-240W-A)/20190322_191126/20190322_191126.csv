@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ALCATEL(G-240W-A),Chrome 73.0.3683.86,,2019-03-22 19:11:28,2019-03-22 19:16:22,"4m - 54,382s",FAILED
+,,,,,,
+Test Cases/Recherche/ALCL (G-240W-A)/1-LOGIN,Chrome 73.0.3683.86,,2019-03-22 19:11:28,2019-03-22 19:13:17,"1m - 48,856s",FAILED
+"callTestCase(findTestCase(""Recherche/AccesRecherche""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 19:11:28,2019-03-22 19:13:17,"1m - 48,483s",FAILED
+,,,,,,
+Test Cases/Recherche/ALCL (G-240W-A)/2-SN,Chrome 73.0.3683.86,,2019-03-22 19:13:17,2019-03-22 19:13:49,"32,021s",FAILED
+"setText(findTestObject(""Page_Recherche/input_Numro de srie_form-contr""), SN_ALCL)",Chrome 73.0.3683.86,,2019-03-22 19:13:17,2019-03-22 19:13:49,"31,887s",FAILED
+,,,,,,
+Test Cases/Recherche/ALCL (G-240W-A)/3-MAC,Chrome 73.0.3683.86,,2019-03-22 19:13:49,2019-03-22 19:14:21,"32,001s",FAILED
+"setText(findTestObject(""Page_Recherche/input_Adresse MAC_form-control""), MAC_ALCL)",Chrome 73.0.3683.86,,2019-03-22 19:13:49,2019-03-22 19:14:21,"31,879s",FAILED
+,,,,,,
+Test Cases/Recherche/ALCL (G-240W-A)/4-ND,Chrome 73.0.3683.86,,2019-03-22 19:14:21,2019-03-22 19:14:53,"32,011s",FAILED
+"setText(findTestObject(""Page_Recherche/input_Numro de tlphone_form-co""), ND_ALCL)",Chrome 73.0.3683.86,,2019-03-22 19:14:21,2019-03-22 19:14:53,"31,885s",FAILED
+,,,,,,
+Test Cases/Recherche/ALCL (G-240W-A)/6-CONSTRUCTEUR,Chrome 73.0.3683.86,,2019-03-22 19:14:53,2019-03-22 19:16:21,"1m - 28,249s",FAILED
+"callTestCase(findTestCase(""Recherche/AccesRecherche""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 19:14:53,2019-03-22 19:16:21,"1m - 28,153s",FAILED

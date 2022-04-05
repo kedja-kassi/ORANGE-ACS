@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ALCATEL(G-240W-A),Chrome 73.0.3683.86,,2019-03-22 18:52:49,2019-03-22 18:55:41,"2m - 52,390s",FAILED
+,,,,,,
+Test Cases/Recherche/ALCL (G-240W-A)/1-LOGIN,Chrome 73.0.3683.86,,2019-03-22 18:52:49,2019-03-22 18:54:57,"2m - 7,392s",FAILED
+"callTestCase(findTestCase(""Recherche/AccesRecherche""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 18:52:49,2019-03-22 18:54:24,"1m - 34,680s",PASSED
+waitForPageLoad(10),Chrome 73.0.3683.86,,2019-03-22 18:54:24,2019-03-22 18:54:25,"1,016s",PASSED
+"setText(findTestObject(""Page_Recherche/input_Login_form-control input""), LOGIN_ALCL)",Chrome 73.0.3683.86,,2019-03-22 18:54:25,2019-03-22 18:54:29,"4,183s",PASSED
+delay(5),Chrome 73.0.3683.86,,2019-03-22 18:54:29,2019-03-22 18:54:34,"5,006s",PASSED
+"waitForElementClickable(findTestObject(""Page_Recherche/button_Rechercher""), 5)",Chrome 73.0.3683.86,,2019-03-22 18:54:34,2019-03-22 18:54:36,"2,040s",PASSED
+"click(findTestObject(""Page_Recherche/button_Rechercher""))",Chrome 73.0.3683.86,,2019-03-22 18:54:36,2019-03-22 18:54:38,"2,071s",PASSED
+delay(15),Chrome 73.0.3683.86,,2019-03-22 18:54:38,2019-03-22 18:54:54,"15,006s",PASSED
+"waitForElementPresent(findTestObject(""Page_Recherche/table_Etat""), 5)",Chrome 73.0.3683.86,,2019-03-22 18:54:54,2019-03-22 18:54:55,"1,029s",PASSED
+ExpectedValue = LOGIN_ALCL,Chrome 73.0.3683.86,,2019-03-22 18:54:55,2019-03-22 18:54:55,"0,000s",PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-03-22 18:54:55,2019-03-22 18:54:55,"0,007s",PASSED
+"table = driver.findElement(By.id(""searchtable""))",Chrome 73.0.3683.86,To locate table,2019-03-22 18:54:55,2019-03-22 18:54:56,"1,019s",PASSED
+"rows_table = table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.86,To locate rows of table it will Capture all the rows available in the table,2019-03-22 18:54:56,2019-03-22 18:54:57,"1,018s",PASSED
+rows_count = rows_table.size(),Chrome 73.0.3683.86,To calculate no of rows In table,2019-03-22 18:54:57,2019-03-22 18:54:57,"0,001s",PASSED
+"println(""Nbre de Device :"" + rows_count - 2)",Chrome 73.0.3683.86,,2019-03-22 18:54:57,2019-03-22 18:54:57,"0,002s",PASSED
+if (rows_count - 2 != 1),Chrome 73.0.3683.86,,2019-03-22 18:54:57,2019-03-22 18:54:57,"0,015s",FAILED
+,,,,,,
+Test Cases/Recherche/ALCL (G-240W-A)/2-SN,Chrome 73.0.3683.86,,2019-03-22 18:54:57,2019-03-22 18:55:27,"30,450s",FAILED
+"setText(findTestObject(""Page_Recherche/input_Numro de srie_form-contr""), SN_ALCL)",Chrome 73.0.3683.86,,2019-03-22 18:54:57,2019-03-22 18:55:01,"4,172s",PASSED
+delay(5),Chrome 73.0.3683.86,,2019-03-22 18:55:01,2019-03-22 18:55:06,"5,003s",PASSED
+"waitForElementClickable(findTestObject(""Page_Recherche/button_Rechercher""), 5)",Chrome 73.0.3683.86,,2019-03-22 18:55:06,2019-03-22 18:55:08,"2,029s",PASSED
+"click(findTestObject(""Page_Recherche/button_Rechercher""))",Chrome 73.0.3683.86,,2019-03-22 18:55:08,2019-03-22 18:55:10,"2,057s",PASSED
+delay(15),Chrome 73.0.3683.86,,2019-03-22 18:55:10,2019-03-22 18:55:25,"15,002s",PASSED
+"waitForElementPresent(findTestObject(""Page_Recherche/table_Etat""), 5)",Chrome 73.0.3683.86,,2019-03-22 18:55:25,2019-03-22 18:55:27,"2,043s",FAILED
+,,,,,,
+Test Cases/Recherche/ALCL (G-240W-A)/3-MAC,Chrome 73.0.3683.86,,2019-03-22 18:55:27,2019-03-22 18:55:29,"2,160s",FAILED
+"setText(findTestObject(""Page_Recherche/input_Adresse MAC_form-control""), MAC_ALCL)",Chrome 73.0.3683.86,,2019-03-22 18:55:27,2019-03-22 18:55:29,"2,023s",FAILED
+,,,,,,
+Test Cases/Recherche/ALCL (G-240W-A)/4-ND,Chrome 73.0.3683.86,,2019-03-22 18:55:29,2019-03-22 18:55:31,"2,167s",FAILED
+"setText(findTestObject(""Page_Recherche/input_Numro de tlphone_form-co""), ND_ALCL)",Chrome 73.0.3683.86,,2019-03-22 18:55:29,2019-03-22 18:55:31,"2,029s",FAILED
+,,,,,,
+Test Cases/Recherche/ALCL (G-240W-A)/6-CONSTRUCTEUR,Chrome 73.0.3683.86,,2019-03-22 18:55:31,2019-03-22 18:55:40,"8,980s",FAILED
+"callTestCase(findTestCase(""Recherche/AccesRecherche""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 18:55:31,2019-03-22 18:55:40,"8,877s",FAILED
